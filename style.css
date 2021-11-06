@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Shrikhand&display=swap');
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+/*
+div{
+    border:1px solid red;
+  
+}*/
+
+.head{
+    width:100%;
+}
+
+.location{
+    width:100%;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;;
+    background-color: #eaeaea;
+}
+
+.location input{
+    border:none;
+    font-size:12pt;
+    font-weight: 300;
+    color:#7e7e7e;
+    background-color:#eaeaea;
+}
+.loc{
+    color:#7e7e7e;
+    padding-right: 2%;
+}
+
+.explore{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+
+.explo_text1{
+
+}
+
+.explo_text2{
+
+}
+
+.explo_but{
+
+}
+
+#button_explo{
+    height:50px;
+    width:250px;
+    font-size:13pt;
+    border-style: none;
+    border-radius: 45px;
+    color: white;
+    background:linear-gradient(#FF79DA,#9356DC)
+    
+}
+
+.fonct{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.fonct_head{
+
+}
+
+.fonct_card_hold{
+
+}
+
+.fonct_card{
+background-color: #f6f6f6;
+}
+
+.fonct_card:hover{
+    background-color: #f5edff;
+}
+.fonct_card:hover .icon{
+    color:#9356dc;
+}
+.fonct_card a{
+    text-decoration: none;
+    color:black;
+    font-size:13pt;
+}
+.icon{
+    font-size:14pt;
+    color:#7e7e7e;
+}
+
+.resto{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+footer{
+    width:100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.foot{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+}
+.foot_header{
+    color:white;
+    font-family: Shrikhand;
+}
+.foot a{
+    text-decoration: none;
+    color:white;
+}
+.foot_text{
+    display: flex;
+    flex-flow: column nowrap;
+}
