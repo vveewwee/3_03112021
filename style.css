@@ -45,6 +45,7 @@ main{
 
 .location input{
     border:none;
+    width:60%;
     font-size:14pt;
     font-weight: 300;
     color:#1b1b1b;
@@ -102,6 +103,10 @@ main{
     
 }
 
+#button_explo:hover{
+    background:linear-gradient(#b15398,#7640b9);
+}
+
 .fonct{
     display: flex;
     flex-flow: column nowrap;
@@ -122,6 +127,7 @@ main{
 ol {
     counter-reset: item;
     line-height: 2.1;
+    padding-inline-start: 4%;
   }
   
   ol li {
@@ -137,11 +143,13 @@ ol {
     top: 50%;
     margin-top: -13px;
     background: #9356DC;
-    height: 30px;
-    width: 30px;
+    height: 24px;
+    width: 24px;
     text-align: center;
     border-radius: 20px;
     font-weight: 500;
+    font-size:10pt;
+    left:2%;
   }
 
 .fonct_card{
@@ -178,6 +186,9 @@ ol {
     color:#7e7e7e;
 }
 
+.lg{
+    font-size:14pt;
+}
 .resto{
     width: 100%;
     display: flex;
@@ -287,8 +298,14 @@ ol {
 }
 
 .like_button{
-    background-color: white;
+    background-color:white;
+    height:50px;
+    width: 50px;;
     border-style: none;
+}
+
+#solidsvg{
+    display:none;
 }
 
 .like{
@@ -296,8 +313,14 @@ ol {
     font-weight: 200;
 }
 
-.like:hover{
-    color:#9356DC;
+.like_button:hover #solidsvg, .like_button:hover{
+    display:block;
+    clip-path: url(#cliP);
+    background:linear-gradient(#FF79DA,#9356DC);
+}
+
+.like_button:hover #linesvg{
+    display:none;
 }
 
 footer{
