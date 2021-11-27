@@ -138,8 +138,8 @@ body{
     height: 100%;
 }
 
-.valid:hover{
-    width:50px;
+.card:hover .valid{
+    width:70px;
     height:100%;
     color:white;
     background-color: #99E2D0;
@@ -150,8 +150,13 @@ body{
     animation-duration: 1s;
 
 }
-.valid:hover .check{
+.card:hover .check, .card:hover .price{
     animation-name: validation;
+    animation-duration: 1s;
+}
+
+.card:hover .price{
+    animation-name: divval;
     animation-duration: 1s;
 }
 
