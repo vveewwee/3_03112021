@@ -225,3 +225,26 @@ footer{
 .a_foot{
     font-size:8pt;
 }
+
+@media screen and (min-width:480px){
+    body{
+        margin-left: auto;
+        margin-right: auto;
+        max-width:480px;
+    }
+
+    .resto_menu{
+        margin-bottom: 5%;
+        border-radius: 25px;
+    }
+    
+    .main_cont{
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .foot{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}

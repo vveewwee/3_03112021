@@ -368,3 +368,30 @@ footer{
 .a_foot{
     font-size:8pt;
 }
+
+@media screen and (min-width:480px){
+    body{
+        margin-left: auto;
+        margin-right: auto;
+        max-width:480px;
+    }
+
+    .explore{
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+/*
+    .resto{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }*/
+    .resto{
+        border-radius: 25px;
+        margin-bottom: 5%;
+    }
+
+    .foot{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}
