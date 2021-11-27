@@ -292,36 +292,42 @@ ol {
     font-weight: 300;
 }
 
+
 .i_hold{
-    width:15%;
+    width:50px;
+    height:50px;
+    display: inline-block;
     padding-top: 4%;
 }
 
 .like_button{
     background-color:white;
-    height:50px;
-    width: 50px;;
+    height:30px;
+    width: 30px;
     border-style: none;
 }
 
-#solidsvg{
-    display:none;
-}
-
 .like{
-    font-size:20pt;
+    font-size:23pt;
     font-weight: 200;
 }
-
-.like_button:hover #solidsvg, .like_button:hover{
-    display:block;
-    clip-path: url(#cliP);
-    background:linear-gradient(#FF79DA,#9356DC);
+#like{
+    font-size: 23pt;
+}
+.like_button:hover{
+    display:inline-block;
+    background-image:linear-gradient(to top,#FF79DA,#9356DC);
+    clip-path: url(#heart);
 }
 
-.like_button:hover #linesvg{
+.like_button:hover .like{
     display:none;
 }
+
+.like_button:hover #like{
+    display:none;
+}
+
 
 footer{
     width:100%;
