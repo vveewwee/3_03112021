@@ -94,7 +94,7 @@ main{
 
 .location input{
     border:none;
-    width:60%;
+    max-width:60%;
     font-size:14pt;
     font-weight: 300;
     color:#1b1b1b;
@@ -103,7 +103,8 @@ main{
 .loc{
     color:#1b1b1b;
     padding-right: 2%;
-    padding-left: 50px;
+    padding-left:10%;
+    max-width:5%;
 }
 
 .explore{
