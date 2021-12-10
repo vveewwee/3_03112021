@@ -32,55 +32,6 @@ main{
     width:100%;
 }
 
-.spinner{
-    position:absolute;
-    left:40%;
-    top:20%;
-    margin:auto;
-    width:260px;
-    height:250px;
-    border-top:10px solid #9356DC;
-    border-bottom:10px solid #FF79DA;
-    border-radius: 45%;
-    animation-name: dissapear;
-    animation-duration: 3s;
-    animation-fill-mode:forwards;
-}
-
-
-.spin{
-    position:absolute;
-    margin:auto;
-    width:240px;
-    height:250px;
-    border-left:10px solid #FF79DA;
-    border-right:10px solid #9356DC;
-    border-radius: 45%;
-    animation-name: dissapear;
-    animation-duration: 3s;
-    animation-fill-mode:forwards;
-}
-
-.spi{
-    position:absolute;
-    margin:auto;
-    width:240px;
-    height:240px;
-    border-top:8px solid #FF79DA;
-    border-bottom:8px solid #9356DC;
-    border-radius: 45%;
-    animation-name: dissapear;
-    animation-duration: 2s;
-    animation-fill-mode:forwards;
-}
-
-@keyframes dissapear{
-    0%{opacity:1; transform:rotate(1540deg);}
-    70%{opacity:1; transform: scale(1) rotate:(180deg);}
-    99%{opacity:1; transform: rotate(0) scale(0);}
-    100%{display:none; opacity:0; transform: scale(0);}
-}
-
 .location{
     width:100%;
     height:60px;
@@ -445,7 +396,7 @@ footer{
 .spinner{
     position:absolute;
     left:50%;
-    top:49%;
+    top:29%;
     margin:auto;
     width:40px;
     height:40px;
@@ -454,15 +405,16 @@ footer{
     border-color: #9356DC;
     border-radius: 50%;
     animation-name: dissapear;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-fill-mode:forwards;
     opacity:0.8;
 }
 
 @keyframes dissapear{
-    0%{opacity:0.8; transform:rotate(1540deg) scale(1); border-color:#9356dc;}
-    20%{opacity:1; transform: rotate(0deg) scale(2); border-color: white;}
+    0%{opacity:0.8; transform:rotate(1240deg) scale(1); border-color:#9356dc;}
+    20%{opacity:1; transform: rotate(900deg) scale(2); border-color: white;}
     40%{ opacity:0.8; transform: rotate(1540deg) scale(4); border-color:#FF79DA}
-    99%{opacity:0; transform: rotate(0) scale(0); border-color: white;}
+    60% { opacity:1; transform:rotate(900deg) scale(2) border-color:#9356dc;}
+    99%{opacity:0.5; transform: rotate(0) scale(1); border-color: white;}
     100%{display:none; opacity:0; transform: scale(0);}
 }
