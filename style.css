@@ -92,7 +92,7 @@ main{
     justify-content: center;
 }
 
-#button_explo{
+#explo_button{
     height:60px;
     width:250px;
     font-size:14pt;
@@ -104,7 +104,7 @@ main{
     
 }
 
-#button_explo:hover{
+#explo_button:hover{
     background:linear-gradient(#b15398,#7640b9);
 }
 
@@ -118,10 +118,6 @@ main{
 
 .fonct_head{
     margin-left: 10%;
-
-}
-
-.fonct_card_hold{
 
 }
 
@@ -158,7 +154,7 @@ ol {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #f6f6f6;
+ /*   background-color: #f6f6f6;*/
     margin-left: 12px;
     height: 70px;
     border-radius: 20px;
@@ -166,11 +162,11 @@ ol {
     box-shadow: 0px 5px 14px 0px #bdbdbd87;
     margin:7%;
 }
-
+/*
 .fonct_card:hover{
     background-color: #f5edff;
 }
-
+*/
 .fonct_card:hover .icon{
     color:#9356dc;
 }
@@ -204,11 +200,11 @@ ol {
 .resto_header{
     margin-left:6%;
 }
-
+/*
 .resto_header h2{
 
 }
-
+*/
 .resto_card_holder{
     display: flex;
     flex-flow: column nowrap;
@@ -414,7 +410,7 @@ footer{
     0%{opacity:0.8; transform:rotate(1240deg) scale(1); border-color:#9356dc;}
     20%{opacity:1; transform: rotate(900deg) scale(2); border-color: white;}
     40%{ opacity:0.8; transform: rotate(1540deg) scale(4); border-color:#FF79DA}
-    60% { opacity:1; transform:rotate(900deg) scale(2) border-color:#9356dc;}
+    60% { opacity:1; transform:rotate(900deg) scale(2); border-color:#9356dc;}
     99%{opacity:0.5; transform: rotate(0) scale(1); border-color: white;}
     100%{display:none; opacity:0; transform: scale(0);}
 }

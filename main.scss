@@ -1,0 +1,22 @@
+$color-sec: #f6f6f6;
+
+@mixin hovercolor($color){
+    @if (lightness($color)>50%)
+    {
+        $color: darken($color, 5%);
+    }
+    @else
+    {
+        $color: darken($color, 2%);
+    }
+    background-color:$color;
+}
+
+.fonct{
+    &_card{
+        background-color: $color-sec;
+        &:hover{
+            @include hovercolor($color-sec);
+        }
+    }
+}

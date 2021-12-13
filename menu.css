@@ -159,19 +159,25 @@ body{
     width:85%;
 }
 
+.card .menu_hold{
+    animation-name:up-size;
+    animation-duration:0.5s;
+    width:100%;
+}
+
 @keyframes down-size{
     0%{width:100%;}
     100%{width:85%;}
 }
 
+@keyframes up-size{
+    0%{width:85%;}
+    100%{width:100%;}
+}
+
 .card:hover .check{
     animation-name: validation;
     animation-duration: 1s;
-}
-
-@keyframes movespan{
-    0% {margin-right:0;}
-    100%{margin-right:2%;}
 }
 
 @keyframes validation{
