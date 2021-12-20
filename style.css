@@ -9,7 +9,7 @@ body{
     margin:0;
 }
 .svg_hide{
-    display:none;
+ height: 0;   
 }
 .head{
     height:60px;
