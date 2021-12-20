@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Shrikhand&display=swap');
 
-
 body{
     display: flex;
     flex-flow: column nowrap;
@@ -9,16 +8,7 @@ body{
     font-family: Roboto;
     margin:0;
 }
-/*
-div{
-    border:1px solid red;
-  
-}
-header{
-    width:100%;
-    
-}
-*/
+
 .head{
     height:60px;
     position:sticky;
@@ -26,7 +16,6 @@ header{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-  /*  box-shadow: 1px 3px 7px 0px rgba(115,115,115,0.45);*/
 }
 main{
     width:100%;
@@ -155,7 +144,6 @@ ol {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
- /* background-color: #f6f6f6;*/
     margin-left: 12px;
     height: 70px;
     border-radius: 20px;
@@ -163,11 +151,7 @@ ol {
     box-shadow: 0px 5px 14px 0px #bdbdbd87;
     margin:7%;
 }
-/*
-.fonct_card:hover{
-    background-color: #f5edff;
-}
-*/
+
 .fonct_card:hover .icon{
     color:#9356dc;
 }
@@ -201,11 +185,7 @@ ol {
 .resto_header{
     margin-left:6%;
 }
-/*
-.resto_header h2{
 
-}
-*/
 .resto_card_holder{
     display: flex;
     flex-flow: column nowrap;
@@ -363,29 +343,6 @@ footer{
     font-size:8pt;
 }
 
-@media screen and (min-width:480px){
-    body{
-        margin-left: auto;
-        margin-right: auto;
-        max-width:480px;
-    }
-
-    .explore{
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
-    }
-
-    .resto{
-        border-radius: 25px;
-        margin-bottom: 5%;
-    }
-
-    .foot{
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-    }
-}
-
 .spinner_hold{
     width:100%;
     max-width:482px;
@@ -430,4 +387,51 @@ footer{
     90% { opacity:1; transform:rotate(300deg) scale(2); border-color:#FF79DA;}
     99%{opacity:0.5; transform: rotate(0) scale(1); border-color:white;}
     100%{display:none; opacity:0; transform: scale(0);}
+}
+
+@media screen and (min-width:576px){
+    
+    .fonct{
+        margin-left: auto;
+        margin-right: auto;
+        max-width:576px;
+    }
+    .fonct_head{
+        margin:0;
+        text-align: center;
+    }
+
+    ol li:before {
+        left:5%;
+    }
+    .resto_card_holder{
+        display:flex;
+        flex-flow:column wrap;
+        justify-content: space-between;
+        width:50%;
+        height:600px;
+    }
+    .explore{
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .resto{
+        border-radius: 25px;
+        padding-top:5%;
+        padding-bottom: 5%;
+    }
+
+    .foot{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}
+
+@media screen and (min-width:992px){
+    body{
+        margin-left:auto;
+        margin-right:auto;
+        max-width:992px;
+    }
 }
