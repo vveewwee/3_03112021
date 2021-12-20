@@ -99,13 +99,14 @@ main{
     border-style: none;
     border-radius: 45px;
     color: white;
-    background:linear-gradient(#FF79DA,#9356DC);
+    background:linear-gradient(#f792da,#ab66ff);
     box-shadow: 0px 3px 10px 1px #bdbdbd;
     
 }
 
 #explo_button:hover{
-    background:linear-gradient(#b15398,#7640b9);
+    background:linear-gradient(#ff91e4,#c291fd);
+    box-shadow:0px 3px 10px 1px #a0a0a0;
 }
 
 .fonct{
@@ -373,11 +374,7 @@ footer{
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
     }
-/*
-    .resto{
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-    }*/
+
     .resto{
         border-radius: 25px;
         margin-bottom: 5%;
@@ -402,7 +399,7 @@ footer{
     justify-content: center;
     align-items: center;
     animation-name:dis;
-    animation-duration:5s;
+    animation-duration:3s;
     animation-fill-mode:forwards;
 }
 
@@ -420,7 +417,7 @@ footer{
     border-color: #9356DC;
     border-radius: 50%;
     animation-name: dissapear;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode:forwards;
     opacity:0.8;
 }

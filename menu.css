@@ -204,8 +204,10 @@ body{
 }
 
 #button_com:hover{
-    background:linear-gradient(#b15398,#7640b9);
+    background:linear-gradient(#ff91e4,#c291fd);
+    box-shadow:0px 3px 10px 1px #a0a0a0;
 }
+
 footer{
     width:100%;
     display: flex;
